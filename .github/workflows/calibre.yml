@@ -28,6 +28,9 @@ jobs:
       - name: Run a one-line script
         run: cat test.txt
 
+      - name: Run a calibre test
+        run: ebook-convert --help
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
